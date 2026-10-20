@@ -172,3 +172,22 @@ footer{background:var(--char);color:#d8caca;padding:70px 0 0}
   .nav-cta{display:none}
   .form-wrap{padding:30px 22px}
 }
+
+/* homepage enrichment (about / faq) */
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.about-media img{width:100%;height:auto;border-radius:var(--radius);box-shadow:var(--shadow);aspect-ratio:4/3;object-fit:cover}
+.about-copy h2{font-size:clamp(30px,3.6vw,44px);margin-bottom:16px}
+.about-copy p{color:var(--muted);font-size:16.5px;margin-bottom:16px}
+.about-copy .btn{margin-top:8px}
+.faq-list{max-width:860px;margin:0 auto;display:grid;gap:14px}
+.faq-item{background:#fff;border:1px solid var(--line);border-radius:18px;padding:20px 26px}
+.faq-item summary{font-family:'Playfair Display',Georgia,serif;font-size:18.5px;font-weight:600;cursor:pointer;color:var(--char)}
+.faq-item p{color:var(--muted);font-size:15.5px;margin-top:10px}
+@media(max-width:860px){.about-grid{grid-template-columns:1fr}}
+
+/* --- Diversification: experience ritual list --- */
+.ritual{list-style:none;display:grid;gap:20px;margin:26px 0 30px}
+.ritual li{display:flex;gap:16px;align-items:flex-start}
+.ritual .rnum{width:40px;height:40px;flex:none;border-radius:50%;background:var(--blush);border:1px solid var(--line);color:var(--rose-dark);font-family:'Playfair Display',Georgia,serif;font-style:italic;font-size:18px;display:flex;align-items:center;justify-content:center}
+.ritual strong{display:block;font-family:'Playfair Display',Georgia,serif;font-size:18.5px;font-weight:600}
+.ritual span{color:var(--muted);font-size:15px}

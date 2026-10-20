@@ -1,6 +1,6 @@
 # Queen Beauty Salon
 
-Demo website concept for **Queen Beauty Salon** — Montreal, Canada.
+Demo website concept for **Queen Beauty Salon** — Montreal, QC.
 
 Live preview: https://queen-beauty-salon-mockup.netlify.app
 
